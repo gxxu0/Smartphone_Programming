@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">for_the_precious_woman</string>
+
+    <string-array name="pcu_name"> <!--pms >> pcuName-->
+        <item>식욕이 증가할 때</item>
+        <item>쉽게 붓게될 때</item>
+        <item>아랫배가 아플 때</item>
+        <item>허리가 아플 때</item>
+        <item>콘돔 안과 밖 구분법</item>
+        <item>사후피임약 복용</item>
+    </string-array>
+    <string-array name="menstruation_name">
+        <item>[해피문데이] 유기농 생리대</item>
+        <item>[해피문데이] 베이직컵</item>
+        <item>[해피문데이] 이지 탐폰</item>
+        <item>[예지미인] 숲속이야기 THE FOREST</item>
+        <item>[Blue Bleu] 블루블루 생리대</item>
+        <item>[내추럴 코튼] 시그니처 뉴 오가닉 슬림 \n유기농 순면커버 생리대</item>
+        <item>[템포] 템포 탐폰</item>
+        <item>[좋은느낌] 유기농순면 린넨블렌딩</item>
+    </string-array>
+
+    <string-array name="menstruation_contents">
+        <item>건강한 재료와 탁월한 흡수력</item>
+        <item>편안한 사용과 착용감, 그리고 믿을 수 있는 재료 </item>
+        <item>든든한 흡수력과 엄선된 재료, 일상의 편리함 제공</item>
+        <item>건강한 재료와 탁월한 흡수력</item>
+        <item>여성의 일상 존중, 유기농 순면 커버 생리대 </item>
+        <item>순면커버, 친환경 생리대 특허 인증</item>
+        <item>100가지 넘는 엄격한 기준으로 인증받은 제품</item>
+        <item>천연 린넨에서 찾은 자연의 건강함으로 \n피부에 더 편안하게</item>
+    </string-array>
+    <string-array name="contraception_name">
+        <item>[비 호르몬 피임법] 콘돔</item>
+        <item>[비 호르몬 피임법] 구리 IUD</item>
+        <item>[비 호르몬 피임법] 살정제</item>
+        <item>[비 호르몬 피임법] 피임 격막</item>
+        <item>[비 호르몬 피임법] 자궁경부 캡</item>
+        <item>[비 호르몬 피임법] 피임 스펀지</item>
+        <item>[호르몬 피임법] 경구피임약</item>
+        <item>[호르몬 피임법] 임플라논</item>
+        <item>[호르몬 피임법] 호르몬 IUD</item>
+        <item>[호르몬 피임법] 피임 주사</item>
+        <item>[호르몬 피임법] 피임 링</item>
+        <item>[호르몬 피임법] 피임 패치</item>
+        <item>[응급(사후) 피임법] 120시간 이내 피임약</item>
+        <item>[응급(사후) 피임법] 72시간 이내 피임약</item>
+        <item>[응급(사후) 피임법] 120시간 이내 구리 IUD</item>
+        <item>영구 피임법</item>
+    </string-array>
+    <string-array name="contraception_contents">
+        <item>편의점, 약국 등 쉽게 찾을 수 있고 비교적 저렴.\n다양한 브랜드와 종류가 있어서 \n자신에게 잘 맞는 종류를 찾기 가능</item>
+        <item>피임 성공률이 99%에 달하는 자궁 내 장치</item>
+        <item>살정제 내의 화학물질이 \n정자를 죽이거나 움직이지 못하게 하는 방법.</item>
+        <item>자궁 경부의 바로 아래 놓는 실리콘 컵.\n정자의 이동을 막아 수정이 일어나지 않도록 함.</item>
+        <item>캡이 자궁 경부를 막으면서, \n정자에 대한 물리적 장벽으로 작용.</item>
+        <item>사용하기 어렵지만, \n스펀지에 있는 살정제가 정자를 죽이거나 \n가까지 오지 못하게 고정하는 역할을 함.</item>
+        <item>하루에 한 번씩 복용하며,\n 임신예방 뿐만 아니라 월경 주기를 규칙적이게 하거나\n여드름 문제나 다른 호르몬 관련 문제 완화</item>
+        <item>4cm의 유연한 막대기 모양 피임장치.\n상완의 팔 안쪽 피부 아래에 삽입하여 사용.</item>
+        <item>자궁 내에 삽입하는 플라스틱으로, \n프로게스틴이라는 호르몬이\n체내에 방출해서 정자와 난자가 만나지 못하도록 함.</item>
+        <item>3개월에 한번씩 앞쪽 넓적다리 또는 \n복부에 피하주사하는 피임법</item>
+        <item>난소에서의 배란을 방지하여 수정을 막고,\n자궁 경부의 점액을 끈적하게 만들어\n자궁이나 난관으로 정자가 들어갈 수 없게 함.</item>
+        <item>일주일에 한개씩 몸에 붙여 사용.\n에스트로겐과 프로게스틴이 포함되어 배란을 막고, \n정자의 속도를 감소시킴.</item>
+        <item>120시간 이내에 복용</item>
+        <item>72시간 이내에 복용</item>
+        <item>응급피임용으로, \n사용 후 피임이 이뤄졌으면 다시 꺼낼 수 있고\n그대로 두어 피임 기구로 사용 가능.</item>
+        <item>정관 수술(남성 불임 수술)\n난관 수술(여성 불임 수술)</item>
+    </string-array>
+    <string-array name="vagina_name">
+        <item>[질 유산균]뉴 오리진 이너플로라</item>
+        <item>[질 유산균] 엘레나</item>
+        <item>[질 유산균] 건강해질</item>
+        <item>[질 유산균] 트루락 이브</item>
+        <item>[질 세정기] 미스미즈 이너 리프레싱 워시</item>
+        <item>[질염 테스트기]질편한</item>
+    </string-array>
+    <string-array name="vagina_contents">
+        <item>여성의 질 건강과 장 건강을 함께 케어하는 \n개별 인정형 듀얼 프로바이오틱스</item>
+        <item>여성의 질 건강과 장 건강을 케어하는\n프리미엄 멀티 유산균 </item>
+        <item>질 내 유익균 증식 및 유해균 억제에 도움\n또한, 배변활동 원활에 도움</item>
+        <item>여성 장 건강 케어 유산균\n질 유래 특허 유산균 3종 함유\n아연 하루 섭취량 100%충족</item>
+        <item>식물유래성분을 담은 Y존 케어</item>
+        <item>감염여부를 소변으로 15분만에 간편하게 체크 가능</item>
+    </string-array>
+</resources>

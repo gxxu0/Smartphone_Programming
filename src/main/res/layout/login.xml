@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C2CB86"
+    tools:context=".login">
+
+    <!--로그인 글씨-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="LOGIN"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <!--ID-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:background="@drawable/layout_rectangle">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/login"/>
+
+            <EditText
+                android:id="@+id/logId"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID를 입력하세요."
+                android:textColor="#BEBEBE"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--PASSWORD-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:background="@drawable/layout_rectangle">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:src="@drawable/password" />
+            <EditText
+                android:id="@+id/logPw"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="pw를 입력하세요."
+                android:textColor="#BEBEBE"
+                android:password="true"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--안내멘트-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/txtGoSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아직 회원이 아니신가요?"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <!--Button-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center">
+        <Button
+            android:id="@+id/logBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:backgroundTint="#9CA55F"
+            android:text="로그인"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+</LinearLayout>

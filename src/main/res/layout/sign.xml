@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#C2CB86">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:text="Sign UP"
+        android:textSize="45sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="420dp"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:background="@drawable/bg_sign_box">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="35sp">
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:backgroundTint = "#4B4E3B"
+                android:hint="이름"
+                android:textSize="20sp"/>
+
+            <LinearLayout
+                android:layout_width="285dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edtId"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="8"
+                    android:backgroundTint="#4B4E3B"
+                    android:hint="아이디"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <EditText
+                android:id="@+id/edtPw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:backgroundTint = "#4B4E3B"
+                android:hint="비밀번호"
+                android:textSize="20sp"
+                android:password="true"/>
+            <EditText
+                android:id="@+id/edtPwCheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:backgroundTint = "#4B4E3B"
+                android:hint="비밀번호 확인"
+                android:textSize="20sp"
+                android:password="true"/>
+            <EditText
+
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:backgroundTint = "#4B4E3B"
+                android:hint="이메일 주소"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/edtPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:backgroundTint = "#4B4E3B"
+                android:hint="휴대폰 번호"
+                android:textSize="20sp"/>
+            <CheckBox
+                android:id="@+id/chkAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:text="모두 동의합니다."
+                android:textSize="17sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="20sp">
+                <CheckBox
+                    android:id="@+id/chkFirst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="이용약관 동의"
+                    android:textSize="15sp"/>
+                <CheckBox
+                    android:id="@+id/chkSecond"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="개인정보 취급방침 동의"
+                    android:textSize="15sp"/>
+                <CheckBox
+                    android:id="@+id/chkThird"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10sp"
+                    android:text="마케팅 정보 수신 동의"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/btnSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:backgroundTint="#9CA55F"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:text="가입하기"
+                android:textSize="25sp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

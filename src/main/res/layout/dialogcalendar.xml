@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".Calendar"
+    android:background="@drawable/bg_sign_box">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtInput1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="월경 양"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtInputDetail1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="현재 본인의 월경 양에 대해 기록합니다."
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/firstRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/firstSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="적음" />
+
+                <RadioButton
+                    android:id="@+id/firstMiddle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="보통" />
+
+                <RadioButton
+                    android:id="@+id/firstALot"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="많음" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtInput2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="월경통 정도"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtInputDetail2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="현재 월경 통 수치에 대해 기록합니다."
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/secondRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/secondSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="적음" />
+
+                <RadioButton
+                    android:id="@+id/secondMiddle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="보통" />
+
+                <RadioButton
+                    android:id="@+id/secondALot"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="많음" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtInput3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기타 증상"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtInputDetail3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="현재 본인의 증상에 대해 기록합니다."
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edtTextInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="아래 내용을 참고해보세요!"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/symptom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="변비 / 복통 / 속쓰림 / 설사 \n식욕 상승 / 식욕 감소 / 아랫배 통증\n배란통 / 묽음 / 냉 악취 / 냉 출혈\n피부 건조 / 여드름 / 각질 / 가려움\nPMS / 가슴 통증 / 골반통 / 관절통\n근육통 / 감기 / 오한 / 배란혈 "/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tip">
+
+
+    <!--상단 바-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#9CA55F"
+        android:gravity="center"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="월 경 꿀 팁"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            />
+    </LinearLayout>
+
+    <!--하단 바-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#d0dac5"
+        android:gravity="center_vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/imgTipCalendar"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/calendar"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:id="@+id/tip_btn"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/idea"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:id="@+id/imgTipHome"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/home"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:id="@+id/imgTipRec"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/quality"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:id="@+id/imgTipUser"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/user"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
